@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../JobFlow.Application/JobFlow.Application.csproj" />
+  <Project Path="../JobFlow.Domain/JobFlow.Domain.csproj" />
+  <Project Path="../JobFlow.Infrastructure/JobFlow.Infrastructure.csproj" />
+  <Project Path="JobFlow.Web.csproj" />
+</Solution>

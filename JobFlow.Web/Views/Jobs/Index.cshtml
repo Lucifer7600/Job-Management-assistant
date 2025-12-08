@@ -1,0 +1,84 @@
+﻿@model JobFlow.Web.Models.JobListViewModel
+
+
+@using JobFlow.Domain.Entities
+
+@{
+    ViewData["Title"] = "Jobs";
+}
+
+<h1>Jobs</h1>
+
+<form method="get" class="row g-2 mb-3">
+    <div class="col-md-4">
+        <input type="text" name="search" value="@Model.Search" class="form-control" placeholder="Search by company, position, location" />
+    </div>
+    <div class="col-md-3">
+        <select name="status" class="form-select">
+            <option value="">All Statuses</option>
+            @foreach (JobStatus s in Enum.GetValues(typeof(JobStatus)))
+            {
+                <option value="@s"
+                        selected="@(Model.StatusFilter.HasValue && Model.StatusFilter.Value == s ? "selected" : null)">
+                    @s
+                </option>
+            }
+        </select>
+    </div>
+    <div class="col-md-3">
+        <select name="compatibility" class="form-select">
+            <option value="">All Compatibility</option>
+            @foreach (JobCompatibility c in Enum.GetValues(typeof(JobCompatibility)))
+            {
+                <option value="@c"
+                        selected="@(Model.CompatibilityFilter.HasValue && Model.CompatibilityFilter.Value == c ? "selected" : null)">
+                    @c
+                </option>
+            }
+            }
+        </select>
+    </div>
+    <div class="col-md-2 d-flex">
+        <button type="submit" class="btn btn-outline-primary flex-grow-1 me-1">Filter</button>
+        <a asp-action="Index" class="btn btn-outline-secondary">Reset</a>
+    </div>
+</form>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Job</a>
+    <a asp-action="ExportToExcel" class="btn btn-outline-success ms-2">Export to Excel</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Position</th>
+            <th>Location</th>
+            <th>Status</th>
+            <th>Compatibility</th>
+            <th>Last Interaction</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var job in Model.Jobs)
+        {
+            <tr>
+                <td>@job.CompanyName</td>
+                <td>@job.Position</td>
+                <td>@job.Location</td>
+                <td>@job.Status</td>
+                <td>@job.Compatibility</td>
+                <td>
+                    @(job.LastInteractionDate?.ToLocalTime().ToString("yyyy-MM-dd") ?? "-")
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@job.Id" class="btn btn-sm btn-outline-secondary">Details</a>
+                    <a asp-action="Edit" asp-route-id="@job.Id" class="btn btn-sm btn-outline-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@job.Id" class="btn btn-sm btn-outline-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\bin\Debug\net8.0\JobFlow.Domain.deps.json
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\bin\Debug\net8.0\JobFlow.Domain.dll
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\bin\Debug\net8.0\JobFlow.Domain.pdb
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\obj\Debug\net8.0\JobFlow.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\obj\Debug\net8.0\JobFlow.Domain.AssemblyInfoInputs.cache
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\obj\Debug\net8.0\JobFlow.Domain.AssemblyInfo.cs
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\obj\Debug\net8.0\JobFlow.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\obj\Debug\net8.0\JobFlow.Domain.dll
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\obj\Debug\net8.0\refint\JobFlow.Domain.dll
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\obj\Debug\net8.0\JobFlow.Domain.pdb
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Domain\obj\Debug\net8.0\ref\JobFlow.Domain.dll

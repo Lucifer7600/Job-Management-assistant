@@ -1,0 +1,15 @@
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\bin\Debug\net8.0\JobFlow.Application.deps.json
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\bin\Debug\net8.0\JobFlow.Application.dll
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\bin\Debug\net8.0\JobFlow.Application.pdb
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\bin\Debug\net8.0\JobFlow.Domain.dll
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\bin\Debug\net8.0\JobFlow.Domain.pdb
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\JobFlow.Application.csproj.AssemblyReference.cache
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\JobFlow.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\JobFlow.Application.AssemblyInfoInputs.cache
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\JobFlow.Application.AssemblyInfo.cs
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\JobFlow.Application.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\JobFlow..D72562E1.Up2Date
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\JobFlow.Application.dll
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\refint\JobFlow.Application.dll
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\JobFlow.Application.pdb
+C:\Users\Abhishek\Desktop\JOB\IT\AI GPT boat\Job management assistant\JobFlow\JobFlow.Application\obj\Debug\net8.0\ref\JobFlow.Application.dll
