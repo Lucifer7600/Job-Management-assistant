@@ -74,3 +74,8 @@ Makes it easy to find:
 
 ## 🧱 Clean Architecture (Layered Design)
 
+JobFlow.Domain → Entities, enums, domain rules
+JobFlow.Application → Services, interfaces, compatibility engine
+JobFlow.Infrastructure → EF Core, database context, Excel export
+JobFlow.Web → MVC UI, controllers, views
+
