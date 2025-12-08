@@ -74,8 +74,94 @@ Makes it easy to find:
 
 ## 🧱 Clean Architecture (Layered Design)
 
-JobFlow.Domain → Entities, enums, domain rules
-JobFlow.Application → Services, interfaces, compatibility engine
-JobFlow.Infrastructure → EF Core, database context, Excel export
-JobFlow.Web → MVC UI, controllers, views
+-- JobFlow.Domain → Entities, enums, domain rules 
+-- JobFlow.Application → Services, interfaces, compatibility engine 
+-- JobFlow.Infrastructure → EF Core, database context, Excel export 
+-- JobFlow.Web → MVC UI, controllers, views 
 
+
+
+This architecture makes the solution:
+
+- Easy to maintain  
+- Easy to extend  
+- Perfect for real professional learning  
+- GitHub-ready and enterprise-friendly  
+
+---
+
+## 🧰 Tech Stack
+
+| Layer / Component     | Technology |
+|----------------------|------------|
+| Backend Framework     | ASP.NET Core MVC (.NET 8) |
+| Database              | SQLite + Entity Framework Core |
+| Frontend              | Razor Views + Bootstrap |
+| Architecture          | Clean Architecture |
+| File Export           | ClosedXML (Excel XLSX) |
+| IDE                   | Visual Studio 2022 / 2026 |
+
+---
+
+## 📂 Project Structure
+
+JobFlow/
+├── JobFlow.Domain/
+│ └── Entities (Job, enums)
+├── JobFlow.Application/
+│ └── Services (compatibility engine, interfaces)
+├── JobFlow.Infrastructure/
+│ ├── Data (DbContext)
+│ └── Services (Excel export)
+├── JobFlow.Web/
+│ ├── Controllers
+│ ├── Views (Razor)
+│ ├── wwwroot
+│ └── Program.cs
+
+
+
+---
+
+## ▶️ Running the Project Locally
+
+### 1️⃣ Prerequisites
+- .NET 8 SDK  
+- Visual Studio 2022 / 2026  
+- SQLite (no setup required — EF Core auto-creates DB)
+
+### 2️⃣ Restore & Build
+dotnet restore
+dotnet build
+
+### 3️⃣ Apply Migrations
+dotnet ef database update --project JobFlow.Infrastructure --startup-project JobFlow.Web
+
+### 4️⃣ Run the Application
+dotnet run --project JobFlow.Web
+
+---
+
+📈 Future Enhancements
+
+AI-powered screening question generator
+Automatic resume & cover-letter picker
+Daily review dashboard
+Email reminders & notifications
+Multi-user support (SaaS mode)
+
+
+🙌 Author
+
+Abhishek Lunagariya
+Montreal, QC, Canada
+Junior .NET Developer
+Learning full-stack development by building real software products
+
+
+⭐ Support the Project
+
+If you find JobFlow helpful:
+Star ⭐ the repository
+Fork and experiment with new ideas
+Share it with other job seekers and developers
